@@ -1,8 +1,12 @@
 import "./App.css";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ChatEngine } from "react-chat-engine";
 
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div>
+      <ChatEngine height="100vh" projectID="" userName="" userSecret="" />
+    </div>
+  );
 }
 
 export default App;
